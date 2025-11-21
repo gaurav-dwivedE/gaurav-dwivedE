@@ -2,7 +2,7 @@
 <h3 align="center">🚀 Full-Stack Developer | MERN | AI/ML | Data Science | App Developer</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=26&duration=4200&color=00F7FF&center=true&vCenter=true&width=650&lines=MERN+Stack+Developer;React+%2B+Node+%2B+MongoDB+Engineer;AI+%2F+Machine+Learning+%2F+Data+Science;App+Developer+(React+Native+%2F+Flutter);Loves+Building+Modern+Web+Experiences">
+  <img src="https://readme-typing-svg.herokuapp.com?size=26&duration=4200&color=00F7FF&center=true&vCenter=true&width=650&lines=MERN+Stack+Developer;React+%2B+Node+%2B+MongoDB+Engineer;AI+%2F+Machine+Learning+%2F+Data+Science;App+Developer+(React+Native);Loves+Building+Modern+Web+Experiences">
 </p>
 
 ---
