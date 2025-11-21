@@ -1,13 +1,102 @@
 <h1 align="center">👋 Hey, I'm <span style="color:#00eaff">Gaurav Dwivedi</span></h1>
-<h3 align="center">🚀 Full-Stack Developer | MERN | AI/ML | Data Science | App Developer | DSA Learner</h3>
+<h3 align="center">🚀 Full-Stack Developer | MERN | AI/ML | Data Science | App Developer</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=26&duration=4200&color=00F7FF&center=true&vCenter=true&width=650&lines=MERN+Stack+Developer;React+%2B+Node+%2B+MongoDB+Engineer;AI+%2F+Machine+Learning+%2F+Data+Science;App+Developer+(React+Native+%2F+Flutter);DSA+%26+System+Design+Learner;Building+Modern+Web+Experiences">
+  <img src="https://readme-typing-svg.herokuapp.com?size=26&duration=4200&color=00F7FF&center=true&vCenter=true&width=650&lines=MERN+Stack+Developer;React+%2B+Node+%2B+MongoDB+Engineer;AI+%2F+Machine+Learning+%2F+Data+Science;App+Developer+(React+Native+%2F+Flutter);Loves+Building+Modern+Web+Experiences">
 </p>
 
 ---
 
-## 🚀 Tech Stack & Tools I Use
+# 🎨 Floating Skills Animation
+
+<p align="center">
+
+<!-- Floating Skills Animation (Clean + Beautiful) -->
+<svg width="900" height="270" viewBox="0 0 900 270" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+  .bubble {
+    rx: 25;
+    ry: 25;
+    fill: #ffffff15;
+    stroke: #00eaff80;
+    stroke-width: 2;
+    filter: drop-shadow(0 0 6px #00eaff88);
+    animation: float 4s ease-in-out infinite;
+  }
+  text {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    fill: #eaffff;
+    font-weight: 600;
+    pointer-events: none;
+  }
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-12px); }
+    100% { transform: translateY(0px); }
+  }
+</style>
+
+<!-- Row 1 -->
+<g transform="translate(80,40)">
+  <rect class="bubble" width="150" height="50"/>
+  <text x="75" y="30">React</text>
+</g>
+
+<g transform="translate(260,40)" style="animation-delay:.2s">
+  <rect class="bubble" width="150" height="50"/>
+  <text x="75" y="30">Node.js</text>
+</g>
+
+<g transform="translate(440,40)" style="animation-delay:.3s">
+  <rect class="bubble" width="150" height="50"/>
+  <text x="75" y="30">MongoDB</text>
+</g>
+
+<g transform="translate(620,40)" style="animation-delay:.4s">
+  <rect class="bubble" width="150" height="50"/>
+  <text x="75" y="30">SQL</text>
+</g>
+
+<!-- Row 2 -->
+<g transform="translate(150,120)" style="animation-delay:.1s">
+  <rect class="bubble" width="200" height="50"/>
+  <text x="100" y="30">Tailwind CSS</text>
+</g>
+
+<g transform="translate(390,120)" style="animation-delay:.25s">
+  <rect class="bubble" width="200" height="50"/>
+  <text x="100" y="30">React Native</text>
+</g>
+
+<g transform="translate(630,120)" style="animation-delay:.35s">
+  <rect class="bubble" width="200" height="50"/>
+  <text x="100" y="30">Flutter</text>
+</g>
+
+<!-- Row 3 -->
+<g transform="translate(120,200)" style="animation-delay:.2s">
+  <rect class="bubble" width="200" height="50"/>
+  <text x="100" y="30">Python</text>
+</g>
+
+<g transform="translate(360,200)" style="animation-delay:.4s">
+  <rect class="bubble" width="200" height="50"/>
+  <text x="100" y="30">AI / ML</text>
+</g>
+
+<g transform="translate(600,200)" style="animation-delay:.55s">
+  <rect class="bubble" width="200" height="50"/>
+  <text x="100" y="30">Data Science</text>
+</g>
+
+</svg>
+</p>
+
+---
+
+## ✨ Tech Stack (Static Badges)
 
 ### 🧩 **Frontend**
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
@@ -15,30 +104,22 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
 ![Tailwind](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)
-![React Three Fiber](https://img.shields.io/badge/React_Three_Fiber-20232A?logo=react&logoColor=61DAFB)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?logo=react&logoColor=61DAFB)
 
----
-
-### ⚙️ **Backend & DevOps**
+### ⚙️ **Backend & Tools**
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 
----
-
 ### 🗄 **Databases**
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-003B57?logo=postgresql&logoColor=white)
 
----
-
-### 🧠 **AI / Machine Learning / Data Science**
+### 🧠 **AI / DS**
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-005C8A?logo=matplotlib&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 
@@ -60,55 +141,13 @@
 
 ---
 
-## 🎯 Current Learning Path
-
-🔥 **Full-Stack Development (MERN)**  
-🔥 **Next.js + Firebase + REST + Socket.io**  
-🔥 **Python for Data Science (NumPy, Pandas, ML)**  
-🔥 **Docker & Deployment**  
-🔥 **React Three Fiber (3D Websites)**  
-🔥 **Data Structures & Algorithms (DSA)**  
-🔥 **System Design Basics**  
-
----
-
-## 🌱 Projects I'm Building
-
-### 🧩 **Web Development**
-- 🖥 **Windows OS Clone** – A realistic desktop UI using HTML, Tailwind & JS  
-- 🔗 **Clipzi – URL Shortener** (Node + Express + MongoDB + React)  
-- 🌐 **3D Portfolio** using React Three Fiber  
-- 🌤 **Weather App** – Beautiful UI + APIs  
-- 🎮 **Stone Paper Scissors** – Python + Streamlit  
-
----
-
-### 🤖 **Data Science (Coming Soon)**
-- 📊 Interactive Data Visualisation  
-- 🤖 ML Classification & Regression Models  
-- 📈 Exploratory Data Analysis Dashboards  
-
----
-
-## 🧠 DSA & Problem-Solving  
-- Arrays, Strings, Linked Lists  
-- Recursion & Backtracking  
-- Trees & Graphs  
-- Stacks / Queues / Hash Maps  
-- Dynamic Programming  
-- Practicing on LeetCode & CodeStudio  
-
-> 🎯 Goal: Become interview-ready with strong problem-solving skills.
-
----
-
 ## 🔗 Connect With Me  
 
 📌 **LinkedIn:**  
-https://www.linkedin.com/in/gaurav-dwivedi-2b26b326b/
+https://www.linkedin.com/in/saurabh-dwivedi-7b301a334/
 
 🌐 **Portfolio:**  
-https://gauravportfolio-zeta.vercel.app/
+
 
 📧 **Email:**  
 gauravdwivedi.mail@gmail.com  
