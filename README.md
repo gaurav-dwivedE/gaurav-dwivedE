@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>MERN Stack Developer | AI / ML | Data Science | App Developer</strong><br>
-  I build scalable apps, intelligent systems, and modern UI experiences.
+  Building scalable apps, intelligent systems, and futuristic UI designs.
 </p>
 
 <br>
@@ -18,29 +18,146 @@
 
 <br>
 
-<!-- ======================== TYPING ANIMATION ========================= -->
+<!-- ======================== TYPING EFFECT ========================= -->
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?duration=3500&color=00BFFF&center=true&vCenter=true&width=600&lines=MERN+Stack+Developer;AI+%2F+Machine+Learning;Data+Science;App+Developer;Full+Stack+Engineer;Always+Learning+New+Skills" />
 </p>
 
-<br>
-
-<!-- ======================== ABOUT ME ========================= -->
-## 👨‍💻 About Me
-
-- 🔥 Working with **React • Node.js • Express • MongoDB**
-- 🤖 Learning & applying **AI / Machine Learning & Deep Learning**
-- 📊 Doing **Data Science, Data Analysis & Python Automation**
-- 📱 Developing cross-platform apps using **React Native **
-- 🌱 Leveling up in **DSA & System Design**
-- 🎯 Goal: Become a **Full-Stack + AI + Data Science Engineer**
-
 ---
 
-# 🚀 Skills (Neon Floating)
+# 🚀 **Skills (Neon Floating — Inline SVG)**
 
 <p align="center">
-  <img src="assets/skills-neon-clean.svg" width="95%" />
+
+<!-- INLINE SVG START -->
+<svg width="1100" height="350" viewBox="0 0 1100 350" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="glass" x1="0%" x2="100%">
+      <stop offset="0%" stop-color="#ffffff22"/>
+      <stop offset="100%" stop-color="#ffffff0a"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .skill {
+      width: 160px;
+      height: 50px;
+      rx: 25;
+      ry: 25;
+      fill: url(#glass);
+      stroke: #00eaff80;
+      stroke-width: 2;
+      filter: drop-shadow(0px 0px 6px #00eaff88);
+      animation: float 4s ease-in-out infinite;
+    }
+    text {
+      font-family: "Poppins", sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      fill: #eaffff;
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-14px); }
+      100% { transform: translateY(0px); }
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1100" height="350" rx="22" fill="#021828" stroke="#00eaff33" filter="glow"/>
+
+  <!-- Row 1 -->
+  <g transform="translate(80,60)" style="animation-delay:.1s">
+    <rect class="skill"/>
+    <text x="80" y="26">React</text>
+  </g>
+
+  <g transform="translate(280,60)" style="animation-delay:.2s">
+    <rect class="skill"/>
+    <text x="80" y="26">Node.js</text>
+  </g>
+
+  <g transform="translate(480,60)" style="animation-delay:.3s">
+    <rect class="skill"/>
+    <text x="80" y="26">Express</text>
+  </g>
+
+  <g transform="translate(680,60)" style="animation-delay:.4s">
+    <rect class="skill"/>
+    <text x="80" y="26">MongoDB</text>
+  </g>
+
+  <g transform="translate(880,60)" style="animation-delay:.5s">
+    <rect class="skill"/>
+    <text x="80" y="26">SQL</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(80,150)" style="animation-delay:.2s">
+    <rect class="skill"/>
+    <text x="80" y="26">Tailwind CSS</text>
+  </g>
+
+  <g transform="translate(280,150)" style="animation-delay:.3s">
+    <rect class="skill"/>
+    <text x="80" y="26">React Native</text>
+  </g>
+
+  <g transform="translate(480,150)" style="animation-delay:.4s">
+    <rect class="skill"/>
+    <text x="80" y="26">Flutter</text>
+  </g>
+
+  <g transform="translate(680,150)" style="animation-delay:.5s">
+    <rect class="skill"/>
+    <text x="80" y="26">Python</text>
+  </g>
+
+  <g transform="translate(880,150)" style="animation-delay:.6s">
+    <rect class="skill"/>
+    <text x="80" y="26">AI / ML</text>
+  </g>
+
+  <!-- Row 3 -->
+  <g transform="translate(80,240)" style="animation-delay:.2s">
+    <rect class="skill"/>
+    <text x="80" y="26">Data Science</text>
+  </g>
+
+  <g transform="translate(280,240)" style="animation-delay:.3s">
+    <rect class="skill"/>
+    <text x="80" y="26">TensorFlow</text>
+  </g>
+
+  <g transform="translate(480,240)" style="animation-delay:.4s">
+    <rect class="skill"/>
+    <text x="80" y="26">PyTorch</text>
+  </g>
+
+  <g transform="translate(680,240)" style="animation-delay:.5s">
+    <rect class="skill"/>
+    <text x="80" y="26">Git</text>
+  </g>
+
+  <g transform="translate(880,240)" style="animation-delay:.6s">
+    <rect class="skill"/>
+    <text x="80" y="26">GitHub</text>
+  </g>
+
+</svg>
+<!-- INLINE SVG END -->
+
 </p>
 
 ---
