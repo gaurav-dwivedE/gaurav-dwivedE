@@ -144,10 +144,10 @@
 ## 🔗 Connect With Me  
 
 📌 **LinkedIn:**  
-https://www.linkedin.com/in/saurabh-dwivedi-7b301a334/
+https://linkedin.com/in/gaurav-dwivedi-2b26b326b/
 
 🌐 **Portfolio:**  
-
+https://gauravportfolio-zeta.vercel.app/
 
 📧 **Email:**  
 gauravdwivedi.mail@gmail.com  
