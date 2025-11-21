@@ -12,87 +12,96 @@
 <p align="center">
 
 <!-- Floating Skills Animation (Clean + Beautiful) -->
-<svg width="900" height="270" viewBox="0 0 900 270" xmlns="http://www.w3.org/2000/svg">
+<p align="center">
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
 
-<style>
-  .bubble {
-    rx: 25;
-    ry: 25;
-    fill: #ffffff15;
-    stroke: #00eaff80;
-    stroke-width: 2;
-    filter: drop-shadow(0 0 6px #00eaff88);
-    animation: float 4s ease-in-out infinite;
-  }
-  text {
-    font-family: "Poppins", sans-serif;
-    font-size: 15px;
-    fill: #eaffff;
-    font-weight: 600;
-    pointer-events: none;
-  }
-  @keyframes float {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-12px); }
-    100% { transform: translateY(0px); }
-  }
-</style>
+<!-- Skill Bubble -->
+<defs>
+  <linearGradient id="grad" x1="0%" x2="100%">
+    <stop offset="0%" stop-color="#00eaff22"/>
+    <stop offset="100%" stop-color="#00eaff08"/>
+  </linearGradient>
+</defs>
+
+<!-- Function to draw a bubble with float animation -->
+<!-- (We will reuse it manually since GitHub doesn’t allow <symbol>) -->
 
 <!-- Row 1 -->
-<g transform="translate(80,40)">
-  <rect class="bubble" width="150" height="50"/>
-  <text x="75" y="30">React</text>
+<g transform="translate(80,30)">
+  <rect width="150" height="50" rx="25" fill="url(#grad)" stroke="#00eaff80" stroke-width="2">
+    <animate attributeName="y" values="0;-10;0" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="75" y="30" font-size="15" font-family="Verdana" fill="#eaffff" text-anchor="middle">React</text>
 </g>
 
-<g transform="translate(260,40)" style="animation-delay:.2s">
-  <rect class="bubble" width="150" height="50"/>
-  <text x="75" y="30">Node.js</text>
+<g transform="translate(260,30)">
+  <rect width="150" height="50" rx="25" fill="url(#grad)" stroke="#00eaff80" stroke-width="2">
+    <animate attributeName="y" values="0;-12;0" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="75" y="30" font-size="15" font-family="Verdana" fill="#eaffff" text-anchor="middle">Node.js</text>
 </g>
 
-<g transform="translate(440,40)" style="animation-delay:.3s">
-  <rect class="bubble" width="150" height="50"/>
-  <text x="75" y="30">MongoDB</text>
+<g transform="translate(440,30)">
+  <rect width="150" height="50" rx="25" fill="url(#grad)" stroke="#00eaff80" stroke-width="2">
+    <animate attributeName="y" values="0;-11;0" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+  <text x="75" y="30" font-size="15" font-family="Verdana" fill="#eaffff" text-anchor="middle">MongoDB</text>
 </g>
 
-<g transform="translate(620,40)" style="animation-delay:.4s">
-  <rect class="bubble" width="150" height="50"/>
-  <text x="75" y="30">SQL</text>
+<g transform="translate(620,30)">
+  <rect width="150" height="50" rx="25" fill="url(#grad)" stroke="#00eaff80" stroke-width="2">
+    <animate attributeName="y" values="0;-9;0" dur="3.4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="75" y="30" font-size="15" font-family="Verdana" fill="#eaffff" text-anchor="middle">SQL</text>
 </g>
 
 <!-- Row 2 -->
-<g transform="translate(150,120)" style="animation-delay:.1s">
-  <rect class="bubble" width="200" height="50"/>
-  <text x="100" y="30">Tailwind CSS</text>
+<g transform="translate(150,110)">
+  <rect width="200" height="50" rx="25" fill="url(#grad)" stroke="#00eaff80" stroke-width="2">
+    <animate attributeName="y" values="0;-8;0" dur="3.3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="100" y="30" font-size="15" font-family="Verdana" fill="#eaffff" text-anchor="middle">Tailwind CSS</text>
 </g>
 
-<g transform="translate(390,120)" style="animation-delay:.25s">
-  <rect class="bubble" width="200" height="50"/>
-  <text x="100" y="30">React Native</text>
+<g transform="translate(390,110)">
+  <rect width="200" height="50" rx="25" fill="url(#grad)" stroke="#00eaff80" stroke-width="2">
+    <animate attributeName="y" values="0;-10;0" dur="3.6s" repeatCount="indefinite"/>
+  </rect>
+  <text x="100" y="30" font-size="15" font-family="Verdana" fill="#eaffff" text-anchor="middle">React Native</text>
 </g>
 
-<g transform="translate(630,120)" style="animation-delay:.35s">
-  <rect class="bubble" width="200" height="50"/>
-  <text x="100" y="30">Flutter</text>
+<g transform="translate(630,110)">
+  <rect width="200" height="50" rx="25" fill="url(#grad)" stroke="#00eaff80" stroke-width="2">
+    <animate attributeName="y" values="0;-12;0" dur="3.1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="100" y="30" font-size="15" font-family="Verdana" fill="#eaffff" text-anchor="middle">Flutter</text>
 </g>
 
 <!-- Row 3 -->
-<g transform="translate(120,200)" style="animation-delay:.2s">
-  <rect class="bubble" width="200" height="50"/>
-  <text x="100" y="30">Python</text>
+<g transform="translate(120,190)">
+  <rect width="200" height="50" rx="25" fill="url(#grad)" stroke="#00eaff80" stroke-width="2">
+    <animate attributeName="y" values="0;-7;0" dur="3.4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="100" y="30" font-size="15" font-family="Verdana" fill="#eaffff" text-anchor="middle">Python</text>
 </g>
 
-<g transform="translate(360,200)" style="animation-delay:.4s">
-  <rect class="bubble" width="200" height="50"/>
-  <text x="100" y="30">AI / ML</text>
+<g transform="translate(360,190)">
+  <rect width="200" height="50" rx="25" fill="url(#grad)" stroke="#00eaff80" stroke-width="2">
+    <animate attributeName="y" values="0;-10;0" dur="3.7s" repeatCount="indefinite"/>
+  </rect>
+  <text x="100" y="30" font-size="15" font-family="Verdana" fill="#eaffff" text-anchor="middle">AI / ML</text>
 </g>
 
-<g transform="translate(600,200)" style="animation-delay:.55s">
-  <rect class="bubble" width="200" height="50"/>
-  <text x="100" y="30">Data Science</text>
+<g transform="translate(600,190)">
+  <rect width="200" height="50" rx="25" fill="url(#grad)" stroke="#00eaff80" stroke-width="2">
+    <animate attributeName="y" values="0;-9;0" dur="3.9s" repeatCount="indefinite"/>
+  </rect>
+  <text x="100" y="30" font-size="15" font-family="Verdana" fill="#eaffff" text-anchor="middle">Data Science</text>
 </g>
 
 </svg>
 </p>
+
 
 ---
 
