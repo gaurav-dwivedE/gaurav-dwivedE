@@ -1,5 +1,5 @@
 <h1 align="center">👋 Hey, I'm <span style="color:#00eaff">Gaurav Dwivedi</span></h1>
-<h3 align="center">🚀 Full-Stack Developer | MERN | AI/ML | Data Science | App Developer</h3>
+<h3 align="center"> Full-Stack Developer  | AI/ML | Data Science | App Developer</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?size=26&duration=4200&color=00F7FF&center=true&vCenter=true&width=650&lines=MERN+Stack+Developer;React+%2B+Node+%2B+MongoDB+Engineer;AI+%2F+Machine+Learning+%2F+Data+Science;App+Developer+(React+Native);Loves+Building+Modern+Web+Experiences">
@@ -55,21 +55,6 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 
----
-
-## 📊 GitHub Analytics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GauravDwivedi&show_icons=true&theme=synthwave" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GauravDwivedi&layout=compact&theme=synthwave" height="165">
-</p>
-
----
-
-## 📈 Contribution Graph  
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=GauravDwivedi&theme=react-dark&hide_border=true">
-</p>
 
 ---
 
