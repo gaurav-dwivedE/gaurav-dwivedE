@@ -64,7 +64,7 @@
 https://linkedin.com/in/gaurav-dwivedi-2b26b326b/
 
 🌐 **Portfolio:**  
-https://gauravportfolio-zeta.vercel.app/
+https://www.gauravdwivedi.tech/
 
 📧 **Email:**  
 gauravdwivedi.mail@gmail.com  
